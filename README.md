@@ -1,2 +1,3 @@
 # MCFocusing
 MCML based simulation which simulates focusing Gaussian beams
+To install, download all the files. Run the makefile to compile. That should produce a binary named MC_Focusing, when this is run it will load the parameters in default.config and run the program. THE PROGRAM ASSUMES THAT THE DATA DIRECTORY EXISTS AT THE TIME OF EXECUTION. If it is left blank, the directory with the binary will be used. The program takes some optional arguments and the program can be launched with the form of ./MC_Focusing {run_name} {config_dir}. To specify a config directory, the run name must also be specified. If these parameters are not given, the default values are run_name = "default" and config_dir = "" (results in using the same directory as the binary).
